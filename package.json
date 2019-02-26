@@ -1,0 +1,32 @@
+{
+  "name": "fsframework",
+  "version": "0.1.0",
+  "description": "My Custom Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "edge.js": "^1.1.4",
+    "fs-jetpack": "^2.2.2",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "module-alias": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "_moduleAliases": {
+    "@root"      : ".",
+    "@my_module" : "lib/some-file.js",
+    "loader"  : "loader",
+    "helpers"  : "helpers",
+    "views"  : "views",
+    "routes"  : "routes"
+  }
+}
